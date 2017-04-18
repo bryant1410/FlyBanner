@@ -1,16 +1,16 @@
 # FlyBanner
 支持无限循环的广告栏控件
 
-###Demo
+### Demo
 ![](image/gif1.gif)
 
-###Gradle
+### Gradle
 
 	dependencies {
   		compile 'com.recker.flybanner:flybanner:1.3'      
 	}
 
-###Usage
+### Usage
 
 
 **Config in xml**
@@ -66,7 +66,7 @@
     }
 
 
-###xml参数说明：
+### xml参数说明：
 
 参数 | 说明 | 类型
 --- | --- | ---
@@ -75,7 +75,7 @@ points_position | 指示器位置(左，中，右) | int
 points\_container_background | 指示器容器背景 | Drawable
 
 
-###方法说明：
+### 方法说明：
 
 方法 | 参数 | 说明
 --- | --- | ---
@@ -85,7 +85,7 @@ setPoinstPosition | position | 指示器位置(左，中， 右)
 
 
 
-###更新说明：
+### 更新说明：
 
 **1.3:**<br>
 1、修复内存溢出问题
